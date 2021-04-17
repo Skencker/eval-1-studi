@@ -41,10 +41,8 @@ body {
       background-color: black;
       border-radius: 10px;
     }
-  
-    .association .paragraphe {
-        font-size: 1.2rem;
-    }
+
+    /* style bouton*/
   
     .btn {
         background-color: rgba(255, 255, 255, 0.05);
@@ -56,14 +54,22 @@ body {
         overflow: hidden;
         transition: 0.5s;
     }
+
+    .btn a {
+        text-decoration: none;
+        color: #77b300;
+        transition: 0.5s;
+    }
+
+    .btn a:hover {
+        color: white;
+        letter-spacing: 3px;
+    }
   
     .btn:hover {
         letter-spacing: 3px;
     }
   
-    .parents p {
-        font-size: 1.5rem;
-    }
   
     footer i {
         font-size: 2rem;
