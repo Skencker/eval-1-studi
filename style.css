@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+body {
+    background-color: #0d1117;
+  }
+
+  @media screen and (min-width: 250px) {
+
+    nav img {
+      display: none;
+    }
+  
+    p {
+      font-size: 0.7rem;
+    }
+  
+    /*page acceuil*/
+  
+    h1 {
+      font-family: 'Lobster', cursive;
+      text-shadow: 3px 1px 2px rgb(65, 64, 64);
+    }
+  
+    h1 a {
+      font-family:Roboto, sans-serif;
+      text-shadow: none;
+    }
+  
+    .accueil,
+    .association,
+    .evenements {
+      margin-top: 70px;
+    }
+  
+
+  
+    .association .paragraphe {
+        font-size: 1.2rem;
+    }
+  
+    .btn {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-top: 1px solid rgba(255,255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        z-index: 1;
+        letter-spacing: 1px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+  
+    .btn:hover {
+        letter-spacing: 3px;
+    }
+  
+    .parents p {
+        font-size: 1.5rem;
+    }
+  
+    footer i {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+  
+  
+  }
+  
+  @media screen and (min-width: 290px) {
+    nav img {
+      display: inline;
+      width: 30%;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  
+  
+  }
+  
+  @media screen and (min-width: 570px) {
+    nav img {
+      width: 50%;
+    }
+
+    /*page accueil*/
+    .accueil,
+    .association,
+    .evenements {
+      margin-top: 100px;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+  }
