@@ -37,7 +37,10 @@ body {
       margin-top: 70px;
     }
   
-
+    .active {
+      background-color: black;
+      border-radius: 10px;
+    }
   
     .association .paragraphe {
         font-size: 1.2rem;
