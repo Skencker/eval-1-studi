@@ -1,37 +1,250 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--description-->
-    <meta name="description" content="association parents d'éléves saint pierre de lages" />
-    <!--lien favicon-->
-    <link rel="icon" type="image/png" href="./images/logo.png" />
-    <!--lien icone-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <!--Google font-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <!--Bootstrap-->
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-    crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://bootswatch.com/4/cyborg/bootstrap.min.css"
-    />
-    <!--lien style.css-->
-    <link rel="stylesheet" href="style.css" />
-    <title>APE SPDL</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--description-->
+        <meta name="description" content="news ape" />
+        <!--lien favicon-->
+        <link rel="icon" type="image/png" href="./images/logo.png" />
+        <!--lien icone-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <!--Google font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <!--Bootstrap-->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous"
+        />
+        <link
+        rel="stylesheet"
+        href="https://bootswatch.com/4/cyborg/bootstrap.min.css"
+        />
+        <!--lien style.css-->
+        <link rel="stylesheet" href="style.css" />
+        <title>APE SPDL</title>
+    </head>
+    <body
+        class="container-fluid container-sm p-0">
+        <nav class="navbar navbar-expand-md navbar-dark badge-light fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                <a href="index.html"><img class="img-fluid p-1" src="./images/logo.png" alt="logo"/></a> 
+                <span> APE SPL</span>
+                </div>
+        
+                <button
+                class="navbar-toggler m-2"
+                data-toggle="collapse"
+                data-target="#navbarText"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div
+                class="collapse navbar-collapse justify-content-end fs-lg-4"
+                id="navbarText"
+                >
+                <ul class="navbar-nav p-3">
+                    <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="news.html" class="nav-link text-uppercase text-success">News</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="index.html#association" class="nav-link"> L'association</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="index.html#parents" class="nav-link">Parents délégués</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!--liste des évenements-->
+        <section class="evenements pb-5 mb-5">
+            <h1 class="text-center pt-3">News</h1> 
+            <div class="card-active d-flex flex-wrap justify-content-evenly">
+                <div
+                class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Bonnes Pâques !</h5>
+                    <p class="text-justify p-3">
+                    Chers Parents,
+                    Pâques arrive et notre super chocolatier Criollo participe une nouvelle fois aux évènements de l’Ape nous permettant ainsi de vendre les chocolats aux même prix que dans sa boutique.
+                    Cette année sont en ventes les sucettes au chocolat blanc, au lait ou noir au prix de vente de 1.70 €.
+                    Merci pour votre participation à cette action et bonne dégustation !
+                    </p>
+                </div>
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Fête de Noël !</h5>
+                    <p class="text-justify p-3">
+                        Chers Parents, Le 20 décembre prochain aura lieu la Fête de Noël
+                        organisée par les enseignants de l’école et l’équipe de l’Alaé.
+                        Après le spectacle, l’Association des Parents d’Elèves propose de
+                        passer ensemble un temps de convivialité. Des activités de dessin,
+                        des jeux seront disponibles et un concours de construction sera
+                        organisé. GRAND MERCI.
+                    </p>
+                    <a
+                        href="./pdf/APE - Flyer Fête de Noel 2019.pdf "
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info mt-5 mb-5 "
+                        >Flyer</a
+                    >
+                </div>
+        
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Programme Novembre / Décembre 2020</h5>
+                    <p class="text-justify p-3">
+                        Chers Parents, Retrouver tout le programme de l'APE du mois de
+                        Novembre et de Décembre 2020
+                    </p>
+                    <a
+                        href="./pdf/2019 APE - Programme.pdf  "
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info mt-5 mb-5 "
+                        >Programme</a
+                    >
+                </div>
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Bougie 11 décembre 2020</h5>
+                    <p class="text-justify p-3">
+                        Chers Parents, Pour aider à financer les différentes sorties
+                        scolaires de nos enfants, nous avons choisi cette année de vous
+                        proposer une bougie. Nous avons invité les élèves de CM2 à
+                        participer à un concours pour créer le logo de l’école afin de
+                        customiser les bougies.
+                    </p>
+                    <a
+                        href="./pdf/APE - Flyer bougie.pdf  "
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info mt-5 mb-5 "
+                        >Bon de commande</a
+                    >
+                </div>
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Sapin de Noël 25 novembre 2020</h5>
+                    <p class="text-justify p-3">
+                        Chers Parents, Pour aider à financer les différentes sorties
+                        scolaires de nos enfants, nous avons choisi cette année de vous
+                        proposer une bougie. Nous avons invité les élèves de CM2 à
+                        participer à un concours pour créer le logo de l’école afin de
+                        customiser les bougies.
+                    </p>
+                    <a
+                        href="./pdf/APE - Vente de sapin 2020.pdf "
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info  "
+                    >
+                        Bon de commande</a
+                    >
+                    <a
+                        href="./pdf/Affiche - réception sapin 2020.pdf"
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info "
+                    >
+                        Réception des sapins</a
+                    >
+                    <a
+                        href="./pdf/Lettre du père noel 2020.pdf"
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info "
+                    >
+                        Lettre du père Noël</a
+                    >
+                </div>
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Sac pliable 07 novembre 2020</h5>
+                    <p class="text-justify p-3">
+                        Chers Parents, Dans le cadre de nos actions, cette année nous vous
+                        proposos l’achat d’un sac pliable à 2 anses avec les dessins et
+                        prénoms de vos enfants.Il y aura 1 seul modéle pour toute l’école
+                        (tous les dessins de tous les enfants de l’école), en revanche vous
+                        pouvez chosiirs le coloris (voir bon de commande). Le prix est fixé
+                        à 8€.Le réglement s’eefectura par chéque au nom de “APE ST PIERRE DE
+                        LAGES”. Nous vous rappelons que les recettes de ces ventes aident
+                        l”école à finincer des projets ou des activités (sorties, class
+                        découverte, transport en bus pour la piscine...). Nous vous
+                        remercions par avance de votre soutient. Cordialement.
+                    </p>
+                </div>
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Fête de la soupe 16 novembre 2020</h5>
+                    <p class="text-justify p-3">
+                        Chers Parents Le 16 Novembre 2019 aura lieu la traditionnelle «Fête
+                        de la Soupe» organisée par la Soledra, sur le boulodrome de Lanta.
+                    </p>
+                    <a
+                        href="./pdf/APE - Soup'Ape.pdf "
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info mt-5 mb-5 "
+                        >Flyer</a
+                    >
+                </div>
+                <div
+                  class="card-style d-flex flex-column justify-content-evenly pt-3 p-2 m-4"
+                >
+                    <h5 class="text-center">Fête de l'école 5 juillet 2019</h5>
+                    <p class="text-justify p-3">
+                        Chers parents, Les membres de l’APE tiennent, en cette fin d’année,
+                        à vous remercier pour votre participation aux actions qui vous ont
+                        été proposées cette année scolaire 2018-2019.
+                    </p>
+                    <a
+                        href="./pdf/Book 2019-low res.pdf "
+                        target="_blanck"
+                        class="btn btn-lg btn-outline-info mt-5 mb-5 "
+                        >Flyer</a
+                    >
+                </div>
+              </div> 
+        </section>
+        <!-- Footer> -->
+        <footer class="footer-basic badge-light fixed-bottom">
+            <div class="icon text-center">
+                <i class="fab fa-facebook text-success pt-2 pl-4 pr-4" data-toggle="popover" title="Bientôt Disponible" ></i>
+                <i class="fab fa-twitter-square text-success pr-4" data-toggle="popover" title="Bientôt Disponible" ></i>
+                <i class="fab fa-instagram text-success pr-4" data-toggle="popover" title="Bientôt Disponible" ></i>
+            </div>
+            <p class="copyright m-0 text-center p-2">Copyright © 2021</p>
+        </footer>
+
+        <!-- jQuery CDN -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"
+        ></script>
+        <!-- Bootstrap CDN JavaScript -->
+        <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+        crossorigin="anonymous"
+        ></script>
     
-</body>
+    </body>
 </html>
